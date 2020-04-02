@@ -1,3 +1,5 @@
+@supports (display: grid) {
+
 body * {
     display: grid;
 }
@@ -24,4 +26,6 @@ body * {
 
 .footer {
     grid-template-columns: auto 1100px auto;
+}
+
 }
